@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.continenntal.semana02"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="edu.continenntal.semana02.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="edu.continenntal.semana02.PANTALLA2"
+            android:label="@string/title_activity_pantalla2" >
+        </activity>
+        <activity
+            android:name="edu.continenntal.semana02.PANTALLA3"
+            android:label="@string/title_activity_pantalla3" >
+        </activity>
+        <activity
+            android:name="edu.continenntal.semana02.PANTALLA04"
+            android:label="@string/title_activity_pantalla04" >
+        </activity>
+        <activity
+            android:name="edu.continenntal.semana02.PANTALLA5"
+            android:label="@string/title_activity_pantalla5" >
+        </activity>
+    </application>
+
+</manifest>
